@@ -1,0 +1,37 @@
+{
+  "bot_name": "Ely AutoMod Bot",
+  "version": "1.0.0",
+  "description": "Enterprise-Grade Discord Moderation System",
+  "author": "Aadarsh Rashalpur",
+  "repository": "https://github.com/aadarshrashalpur-oss/Elyguardian",
+  "features": [
+    "Auto-Moderation",
+    "Moderation Commands",
+    "Ticket System",
+    "Giveaway System",
+    "Reaction Roles",
+    "Welcome System",
+    "Logging System",
+    "Configuration Management"
+  ],
+  "default_config": {
+    "automod_enabled": true,
+    "antispam_enabled": true,
+    "antiflood_enabled": true,
+    "duplicate_detection": true,
+    "antilink_enabled": true,
+    "antiscam_enabled": true,
+    "badword_filter": true,
+    "mention_spam": true,
+    "emoji_spam": true,
+    "caps_limit": 70,
+    "raid_join_threshold": 10,
+    "heat_decay_rate": 1
+  },
+  "heat_score_thresholds": {
+    "warning": 0,
+    "timeout": 50,
+    "kick": 75,
+    "ban": 100
+  }
+}
